@@ -85,3 +85,71 @@ body {
   color: white;
   font-size: 40px;
 }
+.end {
+  width: 70%;
+  height: 300px;
+  background-color: #f8f8f8;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end_top {
+  width: 60%;
+  height: 50%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  text-decoration: none;
+}
+
+.info span {
+  font-size: 17px;
+  color: black;
+  margin-right: 20px;
+}
+
+.info span:hover {
+  border-bottom: 1px solid black;
+}
+
+.social {
+  width: 12%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+}
+
+.end_bottom {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.end_bottom a {
+  text-decoration: none;
+}
+
+.end_bottom span {
+  color: black;
+  font-size: 20px;
+}
+
+.space {
+  width: 100%;
+  height: 100px;
+}
