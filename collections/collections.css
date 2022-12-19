@@ -69,3 +69,19 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.products {
+  width: 30%;
+  height: 400px;
+  margin-bottom: 5%;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.products span {
+  color: white;
+  font-size: 40px;
+}
