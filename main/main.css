@@ -1,6 +1,6 @@
-head body {
+body {
   margin: 0;
-  font-family: helvetica neuecyr light;
+  font-family: helvetica light;
 }
 
 .header {
@@ -9,15 +9,21 @@ head body {
   height: 50px;
   margin-left: 15%;
   position: fixed;
-  top: 0%;
+  top: 0;
   align-items: center;
   justify-content: space-between;
   background-color: white;
+  z-index: 1;
+}
+
+.bicon {
+  display: none;
+  text-decoration: none;
 }
 
 .skargaarden {
   width: 50px;
-  height: 100%;
+  height: 50px;
 }
 
 .skargaarden img {
@@ -74,6 +80,14 @@ head body {
   background-size: cover;
   background-position: center center;
   animation: slider 30s linear infinite;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_block h1 {
+  font-size: 50px;
+  color: white;
+  width: 60%;
 }
 
 @keyframes slider {
@@ -145,6 +159,7 @@ head body {
 .products {
   width: 70%;
   margin-left: 15%;
+  margin-top: 40px;
 }
 
 .product_type {
@@ -172,21 +187,19 @@ head body {
 .some_products {
   width: 100%;
   height: 400px;
-  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 
 .some_product {
-  width: 23%;
-  height: 100%;
-
+  width: 300px;
+  height: 400px;
   text-decoration: none;
 }
 
 .product_photo {
-  width: calc(100%-1px);
-  height: 70%;
+  width: 300px;
+  height: 300px;
   border-bottom: 1px solid grey;
 }
 
@@ -211,15 +224,16 @@ head body {
 
 .product_class {
   height: 2%;
-
-  color: #c6c6c6;
+  color: #777777;
   font-size: 12px;
 }
 
 .price {
+  font-weight: 600;
   color: black;
-  font-size: 15px;
+  font-size: 16px;
 }
+
 .ender {
   display: flex;
   justify-content: space-between;
@@ -228,37 +242,42 @@ head body {
   margin-left: 15%;
   height: 400px;
 }
-.ender_block_1 {
+
+.ender_block1 {
   background-color: grey;
   height: 300px;
   width: 45%;
 }
-.ender_block_2 {
+
+.ender_block1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.ender_block2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.ender_block2 {
   background-color: black;
   height: 300px;
   width: 45%;
   color: white;
 }
-.ender_block_1 a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-}
-.ender_block_2 a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-}
+
 .end {
   width: 70%;
   height: 300px;
@@ -326,4 +345,289 @@ head body {
 .space {
   width: 100%;
   height: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .bicon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    color: #777777;
+  }
+
+  .navbar.responsive .nav {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    height: 50px;
+    background-color: white;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 20px;
+  }
+
+  .navbar.responsive {
+    width: 60%;
+    flex-direction: column;
+    padding-top: 90px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .header {
+    width: 95%;
+    margin-left: 10px;
+    height: 60px;
+    background-color: white;
+  }
+
+  .skargaarden {
+    position: fixed;
+    top: 5px;
+    left: 40%;
+  }
+
+  .icons {
+    margin-right: 30px;
+  }
+
+  .icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider {
+    width: 90%;
+    margin-left: 5%;
+    height: 400px;
+  }
+
+  .slider_block h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .products {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
+  .product_type span {
+    font-size: 40px;
+  }
+
+  .some_products {
+    overflow-x: scroll;
+  }
+
+  .some_product {
+    height: 70%;
+    width: 90%;
+    text-decoration: none;
+  }
+
+  .ender {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .ender_block1 {
+    height: 200px;
+  }
+
+  .ender_block1 a {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .ender_block2 {
+    height: 200px;
+  }
+
+  .ender_block2 a {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .end {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .end_top {
+    width: 90%;
+  }
+
+  .info span {
+    font-size: 13px;
+  }
+
+  .end_bottom span {
+    font-size: 8px;
+  }
+
+  .end_bottom {
+    width: 90%;
+    display: none;
+  }
+
+  .space {
+    display: none;
+  }
+
+  .social {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 820px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .bicon {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    color: #777777;
+  }
+
+  .navbar.responsive .nav {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    height: 50px;
+    background-color: white;
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 20px;
+  }
+
+  .navbar.responsive {
+    width: 60%;
+    flex-direction: column;
+    padding-top: 90px;
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .header {
+    width: 95%;
+    margin-left: 10px;
+    height: 60px;
+    background-color: white;
+  }
+
+  .skargaarden {
+    position: fixed;
+    top: 5px;
+    left: 45%;
+  }
+
+  .icons {
+    margin-right: 30px;
+  }
+
+  .icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider {
+    width: 90%;
+    margin-left: 5%;
+    height: 500px;
+    margin-top: 90px;
+  }
+
+  .slider_block h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .products {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+
+  .product_type span {
+    font-size: 40px;
+  }
+
+  .some_products {
+    overflow-x: scroll;
+  }
+
+  .some_product {
+    height: 70%;
+    width: 90%;
+    text-decoration: none;
+  }
+
+  .ender {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .ender_block1 {
+    height: 200px;
+  }
+
+  .ender_block1 a {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .ender_block2 {
+    height: 200px;
+  }
+
+  .ender_block2 a {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .end {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .end_top {
+    width: 90%;
+  }
+
+  .info span {
+    font-size: 13px;
+  }
+
+  .end_bottom {
+    width: 90%;
+    display: none;
+  }
+
+  .space {
+    height: 300px;
+  }
+
+  .social {
+    width: 50%;
+  }
 }
