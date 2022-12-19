@@ -1,0 +1,248 @@
+.header {
+    width: 100vw;
+    display: flex;
+    height: 50px;
+    margin-left: 0%;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+    background-color: white;
+}
+
+.skargaarden {
+    width: 50px;
+    height: 100%;
+}
+
+.skargaarden img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    font-weight: 100;
+}
+
+.nav {
+    text-decoration: none;
+}
+
+.nav span {
+    font-size: 20px;
+    color: grey;
+}
+
+.nav span:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+/*Navbar*/
+
+
+
+
+
+.items-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 70px;
+}
+.items{
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+}
+.item-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin: 25px;
+}
+.img-1{
+    background-image: url(img/BOO-BM.jpg);
+}
+.img-2{
+    background-image: url(img/BOO-M.jpg);
+}
+.img-3{
+    background-image: url(img/M-H55-T-BP.jpg);
+}
+.img-4{
+    background-image: url(img/KERC-G-T.jpg);
+}
+.img-5{
+    background-image: url(img/KERT200-G-T.jpg);
+}
+.img-6{
+    background-image: url(img/KERT80-G-T.jpg);
+}
+.img-7{
+    background-image: url(img/M-PKC-T-BA.jpg);
+}
+.img-8{
+    background-image: url(img/OXA-T.jpg);
+}
+.img-9{
+    background-image: url(img/9.jpg);
+}
+.img-10{
+    background-image: url(img/10.jpg);
+}
+.img-11{
+    background-image: url(img/11.jpg);
+}
+.img-12{
+    background-image: url(img/12.jpg);
+}
+.img-13{
+    background-image: url(img/13.jpg);
+}
+.img-14{
+    background-image: url(img/14.jpg);
+}
+.img-15{
+    background-image: url(img/15.jpg);
+}
+.img-16{
+    background-image: url(img/16.jpg);
+}
+.img-17{
+    background-image: url(img/17.jpg);
+}
+.img-18{
+    background-image: url(img/18.jpg);
+}
+.img-19{
+    background-image: url(img/19.jpg);
+}
+.img-20{
+    background-image: url(img/20.jpg);
+}
+.img-21{
+    background-image: url(img/21.jpg);
+}
+.img-22{
+    background-image: url(img/22.jpg);
+}
+.img-23{
+    background-image: url(img/23.jpg);
+}
+hr{
+    margin-right: 25px;
+    color: gainsboro;
+}
+section a{
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.88px !important;
+    line-height: 15px !important;
+    padding: 0 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.gr{
+    color: grey;
+    margin-bottom: 5px;
+}
+.bl{
+    margin-bottom: 5px;
+    color: black;
+}
+.wgr{
+    margin-bottom: 5px;
+    color: gainsboro;
+}
+.price{
+    color: gainsboro;
+    text-decoration: line-through;
+}
+/*Footer*/
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 209px 200px 30px;
+    flex-wrap: wrap;
+}
+a div span{
+    letter-spacing: 2.8px;
+    font-size: 20px;
+    color: grey;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a div span:hover{
+    text-decoration: underline;
+}
+
+.foot2{
+    margin: 10px;
+    letter-spacing: 2.8px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+div span{
+    font-size: 15px;
+    color: grey;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+div span a{
+    font-size: 15px;
+    color: grey;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.ic{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.ic-img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.ico{
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+}
